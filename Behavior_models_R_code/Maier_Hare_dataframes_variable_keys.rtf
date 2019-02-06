@@ -1,0 +1,122 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12200\viewh14580\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Variable keys 
+\b0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i\b \cf0 1) Emotion reappraisal task
+\b0 \
+Maier_Hare_dataframe_behavior_emotion_ratings.txt
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 subID
+\b0 		participant identifier	\
+
+\b iapsID	
+\b0 	identifier of the image in the International Affective Picture Set (IAPS)\
+
+\b setNR	
+\b0 	set number: two sets of positive and negative IAPS stimuli were created and the use 			of the sets in the regulate and view conditions was counterbalanced across 			participants; (0 = neutral , 1 = negative set A, 2 = negative set B, 3 = positive set A, 4 			= positive set B)\
+
+\b scan_rating
+\b0 	rating of the IAPS image given in the scanner (after reappraising or viewing), on a 9-			point Likert-type scale (Self-Assessment Manikins): 1 = extremely negative; 9 = 			extremely positive\
+
+\b post_rating
+\b0 	rating of the IAPS images from the reappraisal sets when viewing the picture without 			altering the feeling (collected outside the scanner); on a 9-point Likert-type scale 			(Self-Assessment Manikins): 1 = extremely negative; 9 = extremely positive\
+
+\b type			
+\b0 block type in the MRI paradigm: 1= negative view, 2 = negative regulate, 3 = neutral 			view, 4 = positive regulate, 5 = positive view\
+
+\b exclude_er	
+\b0 exclusion index for emotion analyses (1= participant is excluded, 0 = included)\
+\
+
+\i \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 2) Dietary self-control task
+\b0 \
+Maier_Hare_dataframe_behavior_food_choice.txt\
+\
+Please note that this dataframe only contains data from participants that have usable data for the dietary choice analyses; hence the number of participants deviates from the dataframe for the emotion regulation task. Participants can be matched through the participant identifier.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0\b \cf0 subID  			
+\b0 participant identifier
+\b                      \
+trial				
+\b0 trial number
+\b  
+\b0 (1:100)
+\b                       \
+healthOnscreen       
+\b0 health rating of the presented food, on a visual analog scale from 0 points, 				(anchor: not at all healthy), to 426 points/pixels, (anchor: extremely healthy)
+\b        \
+tasteOnscreen         
+\b0 taste rating of the presented food, on a visual analog scale from 0 points, 				(anchor: not at all tasty), to 426 points/pixels, (anchor: extremely tasty)
+\b        \
+yesToOnscreen       
+\b0 1= participant accepted to eat the presented food, 2 = declined
+\b \
+cMTLH                      
+\b0 1= participant chose tasty-unhealthy food, 0 = participant refused
+\b  \
+cLTMH                   	
+\b0 1= participant chose healthy-untasty food, 0 = participant refused
+\b \
+cMTMH                     
+\b0 1= participant chose tasty-healthy food, 0 = participant refused   
+\b                    \
+cLTLH           		
+\b0 1= participant chose untasty-unhealthy food, 0 = participant refused\
+
+\b posERsuccess        
+\b0 mean positive emotion reappraisal success score for this participant (mean 				post_rating - mean scan_rating), rating should be lower if reappraised positive 				stimulus successfully
+\b   \
+negERsuccess        
+\b0 mean positive emotion reappraisal success score for this participant (mean 				scan_rating - mean post_rating), rating should be higher if reappraised negative 				stimulus successfully
+\b           \
+rtFood                      	
+\b0 reaction time for the food choice (up to 3 seconds answer window)
+\b \
+percSCsuccess       
+\b0 overall dietary self-control success rate across all challenges in percent 
+\b        \
+male                        	
+\b0 1 = male, 0 = female
+\b \
+scanOrder              	
+\b0 1 = First dietary self-control, then emotion regulation task
+\b \
+				
+\b0 2 = First emotion regulation, then dietary self-control task
+\b \
+fevr                        	
+\b0 Score on the eating restraint subscale of the Three Factor Eating 				Questionnaire
+\b \
+age 				
+\b0 age of the participant in years     
+\b                        \
+bmi                     	
+\b0 Body Mass Index
+\b \
+excludeFCmri	        
+\b0 index for participants that were excluded from food choice MRI analyses due to 				excess motion (1 = exclude, 0 = included)
+\b \
+excludeERmri	        
+\b0 index for participant who was excluded from emotion regulation MRI analyses due to 				excess motion (1 = exclude, 0 = included)
+\b \
+excludeERbev   	
+\b0 1= exclude participant from emotion regulation behavioral analyses, 0 = include
+\b \
+vasH			
+\b0 hunger rating on a visual analog scale from 0 points, 				(anchor: not at all hungry), to 426 points/pixels, (anchor: extremely hungry)
+\b   }
