@@ -1,11 +1,11 @@
 # Maier_Hare_Emotion_and_dietary_selfregulation
-Code for Maier, S.U. & Hare, T.A. (2019): Emotion and dietary self-regulation
+Code for Maier, S.U. & Hare, T.A. (2020): Emotion and dietary self-regulation
 
 
 
 Whenever using this code please cite the accompanying manuscript:
 
-Maier, S.U. &amp; Hare, T.A. (2019), Greater BOLD signal during successful emotional stimulus reappraisal 
+Maier, S.U. &amp; Hare, T.A. (2020), Greater BOLD signal during successful emotional stimulus reappraisal 
 is associated with better dietary self-control, bioRxiv, preprint current as of February 6, 2019
 DOI: https://doi.org/10.1101/542712
 
