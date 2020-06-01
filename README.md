@@ -119,3 +119,10 @@ GLM_TH.m modeled health- and taste-related signals.
 GLM_SCS.m modeled the self-control success and failure.
 
 GLM_ST.m modeled the self-control stakes.
+
+
+For drift diffusion model (DDM) analyses in the revised manuscript v2 (May 27, 2020), the script ESC_DDM_Bins_alltrials.R fits the DDM using the C++ code in 2ddm_r_cpp_2.cpp and requires the dataframe dataframe_escf1_basic_ddm.txt as input. The results for the current study can be found in ESC_fits_alltrials.csv, and the comparison fits from a previous study by Hare, Malmaud & Rangel 2011 live in the files IAC_fits_Cue1_all_3000.RData and IAC_fits_Cue3_all_3000.RData.
+
+When using these pieces of code, please cite the accompanying paper:
+
+Silvia U. Maier*, Anjali Raja Beharelle*, Rafael Polania, Christian C. Ruff**, Todd A. Hare** (2020) Dissociable mechanisms govern when and how strongly reward attributes affect decisions, Nature Human Behaviour, 4(6), as a preprint accessible on bioRxiv: https://doi.org/10.1101/434860
