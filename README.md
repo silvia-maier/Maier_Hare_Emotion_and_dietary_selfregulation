@@ -125,4 +125,4 @@ For drift diffusion model (DDM) analyses in the revised manuscript v2 (May 27, 2
 
 When using these pieces of code, please cite the accompanying paper:
 
-Silvia U. Maier*, Anjali Raja Beharelle*, Rafael Polania, Christian C. Ruff**, Todd A. Hare** (2020) Dissociable mechanisms govern when and how strongly reward attributes affect decisions, Nature Human Behaviour, 4(6), as a preprint accessible on bioRxiv: https://doi.org/10.1101/434860
+Silvia U. Maier*, Anjali Raja Beharelle*, Rafael Polania, Christian C. Ruff**, Todd A. Hare** (2020) Dissociable mechanisms govern when and how strongly reward attributes affect decisions, Nature Human Behaviour, accessible online: https://rdcu.be/b4ysL
